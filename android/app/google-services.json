@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "334252914139",
+    "project_id": "fir-authentication-7d8b1",
+    "storage_bucket": "fir-authentication-7d8b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334252914139:android:51fd9e9a8010e268ae63fe",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkBpKPgXd1IDPkYPQQxkohcHdw6fI6YrI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
