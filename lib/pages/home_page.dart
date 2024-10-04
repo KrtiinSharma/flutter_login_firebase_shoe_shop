@@ -5,9 +5,10 @@ import 'package:app/widgets/product_card.dart';
 import 'package:water_drop_nav_bar/water_drop_nav_bar.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import '../data.dart';
-
+import 'package:fl_chart/fl_chart.dart'; // Import the fl_chart package
 import '../models/brand.dart';
 import '../models/product.dart';
+import 'pie_chart_page.dart';
 
 class HomePage extends StatelessWidget {
   final User user;
@@ -30,6 +31,18 @@ class HomePage extends StatelessWidget {
             await FirebaseAuth.instance.signOut();
           },
           icon: const Icon(Icons.login),
+        ),
+        IconButton(
+          // Add pie chart icon
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) =>
+                      PieChartPage()), // Navigate to PieChartPage
+            );
+          },
+          icon: const Icon(Icons.pie_chart), // Pie chart icon
         ),
       ]),
     );
