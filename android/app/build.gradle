@@ -32,6 +32,7 @@ android {
         versionCode = flutter.versionCode
         versionName = flutter.versionName
         multiDexEnabled true
+        minSdkVersion 23 
     }
 
     buildTypes {
@@ -46,3 +47,4 @@ android {
 flutter {
     source = "../.."
 }
+
